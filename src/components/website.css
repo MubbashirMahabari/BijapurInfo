@@ -1,0 +1,38 @@
+/* news css start */
+.container h1 {
+  margin-top: 30px;
+  font-family: 'Monserret-semiRegular';
+  font-weight: bold;
+  animation: mymove 10s infinite;
+  animation-timing-function: ease-in-out;
+  position: relative;
+  text-align: left;
+}
+
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+
+  to {
+    left: 700px;
+  }
+}
+
+/* news css start  */
+
+
+/* newsitem css start */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 16px #767474;
+}
+
+.card:hover {
+  box-shadow: 0 0 11px rgba(161, 161, 161, 0.2);
+  border-bottom: 4px solid #1890ff;
+}
+
+.card:active {
+  color: blue;
+}
